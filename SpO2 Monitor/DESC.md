@@ -76,7 +76,3 @@ Power distribution follows a simple topology from USB 5 V → onboard regulator 
 - **libraries/** – Custom KiCad symbols and footprints for MAX30102 and SSD1306  
 
 ---
-
-## Notes
-Designed entirely from scratch with emphasis on clean routing, controlled trace widths, and electrical reliability.  
-The project demonstrates a full hardware design workflow — from schematic capture and footprint design to 3D visualization and manufacturable output files. 
