@@ -19,9 +19,9 @@ The system measures heart rate and blood-oxygen levels and displays them on the 
 ---
 
 ## Schematic & Layout
-**Schematic:** [Schematic](exports/schematic.png)  
-**PCB Layout:** [Top View](exports/pcb_top.png)  
-**3D Render:** [Render](exports/render.png)  
+**Schematic:** [Schematic](exports/SpO2_Schematic.png)  
+**PCB Layout:** [Top View](exports/SpO2_Top.png)  
+**3D Render:** [Render](exports/SpO2_3D.png) [Render](exports/SpO2_3D-1.png) 
 
 ---
 
