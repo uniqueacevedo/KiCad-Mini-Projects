@@ -1,0 +1,8 @@
+"Reference","Qty","Value","Footprint","Description"
+"A1","1","Arduino_Nano_v3.x","Module:Arduino_Nano","Arduino Nano v3.x"
+"C1,C2,C3","3","100n","Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm","Unpolarized capacitor"
+"D1","1","LED","LED_THT:LED_D5.0mm","Light emitting diode"
+"R1,R2,R3,R4","4","1k","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","Resistor"
+"SW1,SW2,SW3","3","SW_Push","Button_Switch_THT:SW_PUSH_6mm","Push button switch, generic, two pins"
+"U1","1","SSD1306","KiCadTut:SSD1306",""
+"U2","1","MAX30102","KiCadTut:MAX30102 Module",""
