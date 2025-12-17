@@ -119,9 +119,10 @@ Each new version will serve as a checkpoint in understanding real-world electron
 
 ## 🔴🟡🟢 Fully Working Circuit
 
-<p align="center">
-  <video src="exports/TrafficLight_Working.mov" width="860" controls></video>
-</p>
+Even though the working demo video isn’t embedded directly here (the `.mov` file was too large for GitHub’s inline preview), it’s included in the [`exports`](./exports) folder as **TrafficLight_Working.mov** for anyone who wants to see the real-world behavior of the circuit.  
+
+That clip demonstrates the full sequence — each LED (red, yellow, green) activates in timed intervals while the 7-segment display and buzzer respond exactly as intended, matching the schematic logic one-to-one.  
+This working prototype served as proof that every connection and timing element on the PCB mirrored the original breadboard version.
 
 *(All visuals are included in the `/Exports` folder for clear one-page viewing.)*
 
