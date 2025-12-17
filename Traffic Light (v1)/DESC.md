@@ -79,10 +79,12 @@ Each new version will serve as a checkpoint in understanding real-world electron
 
 ## 📸 Media Gallery
 
+---
+
 ## 🧾 Schematic
 
 <p align="center">
-  <img src="Exports/TrafficLight_Schematic.png" alt="Traffic Light Schematic" width="860">
+  <img src="exports/TrafficLight_schematic.png" alt="Traffic Light Schematic" width="860">
 </p>
 
 ---
@@ -90,7 +92,7 @@ Each new version will serve as a checkpoint in understanding real-world electron
 ## 🖼️ PCB Layout
 
 <p align="center">
-  <img src="Exports/TrafficLight_PCB_Top.png" alt="Traffic Light PCB Layout (Top View)" width="860">
+  <img src="exports/TrafficLight_PCB_Top.png" alt="Traffic Light PCB Layout (Top View)" width="860">
 </p>
 
 ---
@@ -98,11 +100,11 @@ Each new version will serve as a checkpoint in understanding real-world electron
 ## 🧱 3D Renders
 
 <p align="center">
-  <img src="Exports/TrafficLight_3D_Top.png" alt="Traffic Light PCB 3D Render (Top)" width="860">
+  <img src="exports/TrafficLight_3D_Top.png" alt="Traffic Light PCB 3D Render (Top)" width="860">
 </p>
 
 <p align="center">
-  <img src="Exports/TrafficLight_3D_Bottom.png" alt="Traffic Light PCB 3D Render (Bottom)" width="860">
+  <img src="exports/TrafficLight_3D_Bottom.png" alt="Traffic Light PCB 3D Render (Bottom)" width="860">
 </p>
 
 ---
@@ -110,7 +112,7 @@ Each new version will serve as a checkpoint in understanding real-world electron
 ## ⚙️ Breadboard Prototype
 
 <p align="center">
-  <video src="Media/Breadboard_Setup.jpg" width="860" controls></video>
+  <img src="exports/Breadboard_Setup.jpg" alt="Traffic Light Breadboard Prototype" width="860">
 </p>
 
 ---
@@ -118,7 +120,7 @@ Each new version will serve as a checkpoint in understanding real-world electron
 ## 🔴🟡🟢 Fully Working Circuit
 
 <p align="center">
-  <img src="Media/TrafficLight_Working.mov" alt="Working Traffic Light Demo" width="860">
+  <video src="exports/TrafficLight_Working.mov" width="860" controls></video>
 </p>
 
 *(All visuals are included in the `/Exports` folder for clear one-page viewing.)*
