@@ -79,20 +79,47 @@ Each new version will serve as a checkpoint in understanding real-world electron
 
 ## 📸 Media Gallery
 
-### 🧾 Schematic
-![Traffic Light Schematic](./Exports/TrafficLight_schematic.pdf)
+## 🧾 Schematic
 
-### 🖼️ PCB Layout (Top View)
-![PCB Layout](./Exports/TrafficLight_PCB_Top.png)
+<p align="center">
+  <img src="Exports/TrafficLight_Schematic.png" alt="Traffic Light Schematic" width="860">
+</p>
 
-### 🧱 3D Render
-![3D Render](./Exports/TrafficLight_3D_Top.png)
+---
 
-### ⚙️ Breadboard Prototype
-![Breadboard Setup](./Media/Breadboard_Setup.jpg)
+## 🖼️ PCB Layout
 
-### 🔴🟡🟢 Fully Working Circuit
-![Working Traffic Light](./Media/TrafficLight_Working.mov)
+<p align="center">
+  <img src="Exports/TrafficLight_PCB_Top.png" alt="Traffic Light PCB Layout (Top View)" width="860">
+</p>
+
+---
+
+## 🧱 3D Renders
+
+<p align="center">
+  <img src="Exports/TrafficLight_3D_Top.png" alt="Traffic Light PCB 3D Render (Top)" width="860">
+</p>
+
+<p align="center">
+  <img src="Exports/TrafficLight_3D_Bottom.png" alt="Traffic Light PCB 3D Render (Bottom)" width="860">
+</p>
+
+---
+
+## ⚙️ Breadboard Prototype
+
+<p align="center">
+  <video src="Media/Breadboard_Setup.jpg" width="860" controls></video>
+</p>
+
+---
+
+## 🔴🟡🟢 Fully Working Circuit
+
+<p align="center">
+  <img src="Media/TrafficLight_Working.mov" alt="Working Traffic Light Demo" width="860">
+</p>
 
 *(All visuals are included in the `/Exports` folder for clear one-page viewing.)*
 
