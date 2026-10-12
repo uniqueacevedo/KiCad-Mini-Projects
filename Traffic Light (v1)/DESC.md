@@ -1,16 +1,15 @@
 # 🚦 Traffic Light Controller — PCB Edition (v1)
 
 ### Overview
-This project began as a **breadboard prototype** — a fully functional traffic light controller built using an **Arduino Nano**, **74HC595 shift register**, **PN2222A transistors**, and a **4-digit 7-segment display**.  
-After validating the circuit in real hardware, I translated the same design into **KiCad**, recreating every connection in PCB form while keeping the same component lineup and logic.  
+I built an Arduino breadboard traffic-light controller using a 74HC595 shift register, transistor drivers, and a countdown display. I also completed a separate KiCad PCB design. The breadboard prototype was built; the PCB has not been fabricated or physically tested.
 
 The placement on this PCB intentionally mirrors my breadboard layout, but with cleaner routing and future expandability in mind.  
-This board represents **Version 1** in an ongoing series (**v1 → v3**) as I continue testing, refining, and evolving the design with real-world feedback from the physical build.
+This is Version 1 of the PCB design. Further design review, fabrication, and physical PCB testing are still ahead.
 
 ---
 
 ## 🧠 Project Goals
-The objective of this project was to transform a simple breadboard demonstration into a professional-grade PCB while preserving educational clarity.  
+The objective was to develop a separate PCB design from the breadboard project while practicing schematic capture and layout.
 While a real traffic light system would obviously be much larger and operate at higher voltages, this circuit demonstrates the **core control logic** behind sequencing, timing, and pedestrian input — all in a safe, 5 V environment.
 
 It’s designed to visually and audibly show how:
@@ -59,7 +58,7 @@ The extra board real estate provides:
 - Flexibility to mount screw terminals or headers for modular experiments  
 - Mechanical room for mounting holes, standoffs, or labeling zones in later revisions  
 
-By leaving that area blank, the PCB acts as both a functional circuit **and a platform for iteration** — ensuring that later designs can evolve without having to redesign the base layout from scratch.  
+The unused area leaves room for possible future revisions. It does not establish that the PCB is functional; the board remains an untested design.
 
 ---
 
@@ -121,8 +120,7 @@ Each new version will serve as a checkpoint in understanding real-world electron
 
 Even though the working demo video isn’t embedded directly here (the `.mov` file was too large for GitHub’s inline preview), it’s included in the [`exports`](./exports) folder as **TrafficLight_Working.mov** for anyone who wants to see the real-world behavior of the circuit.  
 
-That clip demonstrates the full sequence — each LED (red, yellow, green) activates in timed intervals while the 7-segment display and buzzer respond exactly as intended, matching the schematic logic one-to-one.  
-This working prototype served as proof that every connection and timing element on the PCB mirrored the original breadboard version.
+This video records my breadboard prototype. It does not establish that the separate PCB design has been built or validated.
 
 *(All visuals are included in the `/Exports` folder for clear one-page viewing.)*
 
@@ -132,7 +130,7 @@ This working prototype served as proof that every connection and timing element 
 - **KiCad 9.0.4** — schematic capture, layout, Gerbers  
 - **Arduino IDE** — firmware and testing  
 - **MacBook M3 / macOS Sequoia** — design platform  
-- **JLCPCB** *(optional)* — for fabrication and assembly  
+- **JLCPCB** *(potential future service)* — the PCB has not been fabricated or assembled
 
 ---
 
