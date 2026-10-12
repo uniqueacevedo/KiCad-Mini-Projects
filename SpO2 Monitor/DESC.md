@@ -1,8 +1,8 @@
 # SpO₂ Monitor (MAX30102 + SSD1306 + Arduino Nano)
 
-A compact pulse-oximeter PCB integrating the MAX30102 optical sensor, SSD1306 OLED display, and Arduino Nano.  
-Designed in KiCad as a fully custom board with self-made footprints and attention to routing precision, via placement, and trace impedance.  
-The system measures heart rate and blood-oxygen levels and displays them on the onboard OLED.  
+I designed a two-layer KiCad PCB connecting an Arduino Nano, MAX30102 sensor module, and SSD1306 OLED over I²C. I completed schematic capture, footprint assignment, BOM preparation, and routing. The board has not been fabricated, assembled, or physically tested.
+
+The intended function is to acquire heart-rate and blood-oxygen data from the MAX30102 and display the results on the OLED. This function has not been physically validated.
 
 ---
 
@@ -49,8 +49,8 @@ The system measures heart rate and blood-oxygen levels and displays them on the 
 ## Design Summary
 The board is centered around the Arduino Nano as the main controller.  
 The MAX30102 module handles photoplethysmography (PPG) measurements through its internal red and infrared LEDs and photodiode.  
-The SSD1306 OLED display provides real-time feedback of heart rate (BPM) and blood-oxygen percentage (SpO₂).  
-All peripherals communicate via I²C, routed with short traces and minimal crosstalk to maintain signal stability.  
+The SSD1306 OLED is intended to display heart rate (BPM) and blood-oxygen percentage (SpO₂) after assembly and firmware integration; this operation has not been physically validated.
+The design connects the sensor module and display over I²C. Communication and signal integrity have not been physically tested.
 
 Custom footprints were designed in KiCad for both the MAX30102 and SSD1306 to ensure accurate mechanical fit and pad alignment.  
 Trace widths were selected to balance manufacturability with low-impedance connections, and vias were strategically placed to maintain solid ground continuity across both layers.  
